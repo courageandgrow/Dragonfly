@@ -1,0 +1,14 @@
+.cg-style .et_pb_post a.more-link {
+    text-transform: capitalize;
+    color: var(--link)
+}
+
+.cg-style .et_pb_post .post-content-inner {
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+.cg-style .et_pb_post h5.entry-title {
+    line-height: 1.3;
+    margin-bottom: 5px;
+}

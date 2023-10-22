@@ -1,0 +1,71 @@
+:root {
+
+  /**============================================
+   *               C&G COLORS
+   *=============================================**/
+  --head-dark: #2B4257;
+  --head-light: #FFFFFF;
+
+  --body-dark: #222222;
+  --body-light: #FFFFFF;
+
+  --link: #EF627D;
+
+  --accent: #5db2c9;
+  --accent-hover: #3D9DB8;
+
+  --button: #EF627D;
+  --button-hover: #f85573;
+  --button-text: #FFFFFF;
+
+  --neutral-light: #FFFFFF;
+  --neutral-dark: #000000;
+
+
+
+
+  /**============================================
+   *               DEFAULT COLORS
+   *=============================================
+  --head-dark: #111111;
+  --head-light: #FFFFFF;
+
+  --body-dark: #222222;
+  --body-light: #FFFFFF;
+
+  --link: #0c71c3;
+
+  --accent: #0c71c3;
+  --accent-hover: #094E86;
+
+  --button: #0c71c3;
+  --button-hover: #094E86;
+  --button-text: #FFFFFF;
+
+  --neutral-light: #FFFFFF;
+  --neutral-dark: #000000;**/
+
+
+
+
+  /**============================================
+   *               DEBUG COLORS
+   *=============================================
+  --head-dark: #f9cb0c;
+  --body-dark: #9c4f96;
+
+  --head-light: #f9cb0c;
+  --body-light: #9c4f96;
+
+  --link: #9dcd5a;
+
+  --accent: #ef627d;
+  --accent-hover: #ff7da1;
+
+  --button: #e59879;
+  --button-hover: #cb866b;
+  --button-text: #FFFFFF;
+
+  --neutral-light: #FFFFFF;
+  --neutral-dark: #000000;**/
+}

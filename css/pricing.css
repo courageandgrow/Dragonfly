@@ -1,0 +1,101 @@
+/**========================================================================
+ *                           PRICING
+ *========================================================================**/
+
+/**--------------------------------------------
+ *               COLORS
+ *---------------------------------------------**/
+ .cg-style .et_pb_featured_table {
+    background-color: var(--head-dark);
+    border-color: var(--accent);
+    border-width: 3px;
+}
+
+
+
+/**--------------------------------------------
+ *               TYPOGRAPHY
+ *---------------------------------------------**/
+
+
+.cg-style .et_pb_dollar_sign {
+    position: relative;
+    margin-right: 10px;
+    margin-left: 0 !important;
+}
+
+.cg-style .et_pb_frequency_slash {
+    display: none;
+}
+
+/* Bullet Style */
+.cg-style .et_pb_pricing_table .et_pb_pricing li span:before {
+    font-family: ETmodules;
+    content: "\4e";
+    font-weight: 800;
+    border: none;
+    border-radius: 0;
+    left: -20px;
+    position: absolute;
+    top: 0;
+    border-radius: 0;
+}
+
+.cg-style .et_pb_pricing_table .et_pb_pricing li.et_pb_not_available span:before {
+    content: "\4d";
+}
+
+
+/**--------------------------------------------
+ *               STRUCTURE
+ *---------------------------------------------**/
+.cg-style .et_pb_pricing_table .et_pb_et_price .et_pb_frequency {
+    display: block;
+}
+
+.cg-style .et_pb_pricing_table_wrap .et_pb_pricing_table {
+    box-shadow: 0 2px 18px 0px rgb(0, 0, 0, 0.3);
+}
+
+.cg-pricing .et_pb_pricing_table_wrap {
+	justify-content: space-between;
+}
+
+.cg-pricing .et_pb_pricing_table {
+	width: 31%;
+    max-width: 31%;
+}
+
+.et_pb_column_4_4 .cg-pricing .et_pb_pricing_table {
+	width: 22.5%;
+    max-width: 22.5%;
+}
+
+.et_pb_column_4_4 .cg-pricing.et_pb_pricing_3 .et_pb_pricing_table {
+    width: 31%;
+    max-width: 31%;
+}
+
+.et_pb_column_1_2 .cg-pricing .et_pb_pricing_table,
+.et_pb_column_2_3 .cg-pricing .et_pb_pricing_table,
+.et_pb_column_3_5 .cg-pricing .et_pb_pricing_table,
+.cg-pricing.et_pb_pricing_2 .et_pb_pricing_table {
+    width: 48%;
+    max-width: 48%;
+}
+
+.et_pb_column_1_3 .cg-pricing .et_pb_pricing_table,
+.et_pb_column_1_4 .cg-pricing .et_pb_pricing_table,
+.et_pb_column_1_5 .cg-pricing .et_pb_pricing_table,
+.et_pb_column_1_6 .cg-pricing .et_pb_pricing_table,
+.et_pb_column_2_5 .cg-pricing .et_pb_pricing_table,
+.et_pb_column_3_8 .cg-pricing .et_pb_pricing_table,
+.cg-pricing.et_pb_pricing_1 .et_pb_pricing_table {
+    width: 100%;
+    max-width: none;
+}
+
+@media (min-width: 767px) and (max-width: 980px) { .et_pb_column .cg-pricing .et_pb_pricing_table {	
+		max-width: 48%!important;
+	}
+}

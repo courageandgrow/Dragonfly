@@ -1,0 +1,148 @@
+/**========================================================================
+ *                           BLURB ICONS
+ *========================================================================**/
+/**--------------------------------------------
+ *               LIGHT THEME
+ *---------------------------------------------**/
+.cg-style .et_pb_main_blurb_image .et-pb-icon {
+    color: var(--accent);
+    background-color: transparent;
+}
+
+
+/**--------------------------------------------
+ *               DARK THEME
+ *---------------------------------------------**/
+.cg-style-dark .et_pb_main_blurb_image .et-pb-icon {
+    color: var(--accent);
+}
+
+
+
+
+/**========================================================================
+  *                           TESTIMONIAL ICONS
+  *========================================================================**/
+/**--------------------------------------------
+ *               LIGHT THEME
+ *---------------------------------------------**/
+.cg-style span.et_pb_testimonial_author {
+    color: var(--accent);
+}
+
+
+/**--------------------------------------------
+ *               DARK THEME
+ *---------------------------------------------**/
+.cg-style-dark span.et_pb_testimonial_author {
+    color: var(--accent);
+}
+
+
+
+
+/**========================================================================
+  *                           SOCIAL ICONS
+  *========================================================================**/
+/**--------------------------------------------
+ *               LIGHT THEME
+ *---------------------------------------------**/
+.cg-style a.icon {
+    background-color: var(--accent);
+}
+
+.cg-style a.icon:hover {
+    background-color: var(--accent-hover);
+}
+
+
+/**--------------------------------------------
+ *               DARK THEME
+ *---------------------------------------------**/
+.cg-style-dark a.icon {
+    background-color: var(--accent);
+}
+
+.cg-style-dark a.icon:hover {
+    background-color: var(--accent-hover);
+}
+
+
+
+
+/**========================================================================
+ *                           GALLERY ICONS
+ *========================================================================**/
+/**--------------------------------------------
+ *               LIGHT THEME
+ *---------------------------------------------**/
+.cg-style .et_overlay::before {
+    color: var(--accent);
+}
+
+
+/**--------------------------------------------
+ *               DARK THEME
+ *---------------------------------------------**/
+.cg-style-dark .et_overlay::before {
+    color: var(--accent);
+}
+
+
+
+
+/**========================================================================
+ *                           CIRCLED NUMBERS
+ *========================================================================**/
+
+/**--------------------------------------------
+ *               SETUP
+ *---------------------------------------------**/
+.cg-style .cg-circle {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    /* Center text vertically */
+    justify-content: center;
+    /* Center text horizontally */
+    margin: 0 auto;
+    /* Center whole module */
+}
+
+.cg-style .cg-circle h1 {
+    margin-top: 10px;
+}
+
+
+/**--------------------------------------------
+ *               LIGHT THEME
+ *---------------------------------------------**/
+.cg-style .cg-circle {
+    background-color: var(--accent);
+}
+
+.cg-style .cg-circle:hover {
+    background-color: var(--accent-hover);
+}
+
+.cg-style .cg-circle h1 {
+    color: var(--neutral-light);
+}
+
+
+/**--------------------------------------------
+ *               DARK THEME
+ *---------------------------------------------**/
+.cg-style-dark .cg-circle {
+    background-color: var(--accent);
+}
+
+.cg-style-dark .cg-circle:hover {
+    background-color: var(--accent-hover);
+}
+
+.cg-style-dark .cg-circle h1 {
+    color: var(--neutral-light);
+}

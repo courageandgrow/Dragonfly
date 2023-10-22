@@ -1,0 +1,176 @@
+/**========================================================================
+ *                           COLORS
+ *========================================================================**/
+
+/**--------------------------------------------
+ *               LIGHT THEME
+ *---------------------------------------------**/
+.cg-style h1,
+.cg-style h2,
+.cg-style h3,
+.cg-style h4,
+.cg-style h5,
+.cg-style h6 {
+    color: var(--head-dark);
+}
+
+.cg-style .et_pb_fullwidth_header .header-content h1 {
+    color: var(--head-dark) !important;
+    /* Divi uses important. Must include. */
+}
+
+.cg-style .et_pb_fullwidth_header .header-content p {
+    color: var(--body-dark) !important;
+    /* Divi uses important. Must include. */
+}
+
+.cg-style p {
+    color: var(--body-dark);
+}
+
+.cg-style a:not(.et_pb_button) {
+    color: var(--link);
+}
+
+.cg-style .et_pb_post .entry-title a {
+    color: var(--head-dark);
+    /* Blog grid title */
+}
+
+
+
+
+/**--------------------------------------------
+  *               DARK THEME
+  *---------------------------------------------**/
+
+.cg-style-dark h1,
+.cg-style-dark h2,
+.cg-style-dark h3,
+.cg-style-dark h4,
+.cg-style-dark h5,
+.cg-style-dark h6 {
+    color: var(--head-light);
+}
+
+.cg-style-dark .et_pb_fullwidth_header .header-content h1 {
+    color: var(--head-light) !important;
+    /* Divi uses important. Must include. */
+}
+
+.cg-style-dark .et_pb_fullwidth_header .header-content p {
+    color: var(--body-light) !important;
+    /* Divi uses important. Must include. */
+}
+
+.cg-style-dark p {
+    color: var(--body-light);
+}
+
+.cg-style-dark a:not(.et_pb_button) {
+    color: var(--link);
+}
+
+.cg-style-dark .et_pb_portfolio_grid a {
+    color: var(--head-light);
+}
+
+.cg-style-dark .et_pb_post .entry-title a {
+    color: var(--head-dark);
+    /* Blog grid title. This uses dark because the cards are still white.  */
+}
+
+
+
+
+/**========================================================================
+  *                           FONT SIZES & WEIGHTS
+  *========================================================================**/
+/**--------------------------------------------
+  *               GENERAL
+  *---------------------------------------------**/
+html,
+.cg-style html,
+.cg-style-dark html {
+    font-size: 18px !important;
+}
+
+h1,
+.cg-style h1, 
+.cg-style .et_pb_fullwidth_header h1 {
+    font-size: 2.7rem;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .cg-style .et_pb_fullwidth_header h1 {
+        font-size: 2rem !important;
+    }
+
+}
+
+h2,
+.cg-style h2 {
+    font-size: 2rem;
+    line-height: 1.3;
+    font-weight: 600;
+}
+
+h3,
+.cg-style h3 {
+    font-size: 1.75rem;
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+h4,
+.cg-style h4 {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+h5,
+.cg-style h5 {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+h6,
+.cg-style h6 {
+    font-size: 1rem;
+    line-height: 1.7;
+    font-weight: 200;
+}
+
+p,
+.cg-style p {
+    font-size: 1rem;
+    line-height: 1.3;
+    font-weight: 300;
+}
+
+
+/**--------------------------------------------
+  *               BLURB AUTHOR
+  *---------------------------------------------**/
+.cg-style .et_pb_testimonial_author {
+    font-size: 1rem;
+}
+
+
+/**--------------------------------------------
+  *               CIRCLED NUMBERS
+  *---------------------------------------------**/
+.cg-style .cg-circle h1 {
+    font-size: 2.0rem;
+}
+
+
+/**--------------------------------------------
+  *               CIRCLED NUMBERS
+  *---------------------------------------------**/
+

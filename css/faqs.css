@@ -1,0 +1,20 @@
+.cg-style .et_pb_toggle_open .et_pb_toggle_title  {
+    color: var(--link);
+}
+
+.cg-style-dark .et_pb_toggle_close .et_pb_toggle_title  {
+    color: var(--body-dark);
+}
+
+.cg-style-dark .et_pb_toggle_close .et_pb_toggle_title  {
+    color: var(--body-light);
+}
+
+.cg-style .et_pb_toggle_title:before {
+    color: var(--accent);
+}
+
+.cg-style .et_pb_toggle {
+    padding-left: 0;
+    padding-right: 0;
+}

@@ -1,0 +1,25 @@
+.cg-style .et_pb_portfolio_grid a /* Standard portfolio      */,
+.cg-style .et_pb_portfolio_items a /* Filterable portfolio */ {
+    color: var(--head-dark);
+}
+
+.cg-style-dark .et_pb_portfolio_grid a /* Standard portfolio      */,
+.cg-style-dark .et_pb_portfolio_items a /* Filterable portfolio */ {
+    color: var(--head-light);
+}
+
+.cg-style .et_pb_portfolio_grid .post-meta a,
+.cg-style .et_pb_portfolio_items .post-meta a {
+    color: var(--accent);
+}
+
+.cg-style .et_pb_portfolio_grid .et_overlay:before,
+.cg-style .et_pb_portfolio_items .et_overlay:before {
+    color: var(--accent);
+}
+
+.cg-style .et_pb_portfolio_grid h5,
+.cg-style .et_pb_portfolio_items h5 {
+    font-size: 1rem;
+    line-height: 1.3;
+}       

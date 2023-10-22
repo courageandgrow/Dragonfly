@@ -1,0 +1,23 @@
+/**========================================================================
+ *                           INLINE FIELDS
+ *========================================================================**/
+
+/**--------------------------------------------
+ *               DESKTOP & TABLET
+ *---------------------------------------------**/
+@media (min-width: 768px) {
+    .cg-email-optin-inline.et_pb_newsletter .et_pb_newsletter_fields {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .cg-email-optin-inline.et_pb_newsletter .et_pb_newsletter_fields>* {
+        margin-right: 20px;
+    }
+
+    .cg-email-optin-inline.et_pb_newsletter .et_pb_newsletter_fields>*:last-child {
+        margin-right: 0;
+    }
+}

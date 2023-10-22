@@ -1,0 +1,281 @@
+/**========================================================================
+ *                           GLOBAL MENU STYLES
+ *========================================================================**/
+
+/**--------------------------------------------
+ *               GLOBAL STYLES
+ *---------------------------------------------**/
+.cg-style .et_pb_module.et_pb_menu {
+    background-color: transparent;
+}
+
+.cg-style .et_pb_menu a {
+    font-size: 1rem;
+    line-height: 1.3em;
+    font-weight: 700;
+}
+
+.cg-style .et_pb_menu__icon {
+    margin-left: 15px;
+}
+
+
+/**--------------------------------------------
+ *              COLORS - LIGHT THEME
+ *---------------------------------------------**/
+.cg-style .et_pb_menu .menu-item a {
+    color: var(--head-dark);
+}
+
+.cg-style .et_pb_menu .menu-item a:hover {
+    color: var(--link);
+}
+
+.cg-style .et_pb_menu ul li.current-menu-item a {
+    color: var(--link);
+}
+
+.cg-style .nav li ul {
+    /* Menu line color (border) */
+    border-color: var(--accent);
+}
+
+.cg-style .et_mobile_menu {
+    border-color: var(--accent);
+}
+
+.cg-style .et_mobile_nav_menu .mobile_nav .mobile_menu_bar:before {
+    /* Hamburger menu icon */
+    color: var(--accent);
+}
+
+.cg-style .et_pb_menu__wrap .et_pb_menu__icon.et_pb_menu__search-button {
+    color: var(--accent);
+}
+
+
+/**--------------------------------------------
+ *               COLORS - DARK THEME
+ *---------------------------------------------**/
+ /* Root menu items */
+.cg-style-dark .et_pb_menu .menu-item a {
+    color: var(--body-light);
+}
+
+/* Dropdown menu items */
+.cg-style-dark .et_pb_menu .sub-menu .menu-item a {
+    color: var(--head-dark);
+}
+
+
+/**--------------------------------------------
+ *               MOBILE
+ *---------------------------------------------**/
+/* Fixes mobile hamburger icon alignment. Forces it to the right. */
+@media only screen and (max-width: 980px) {
+    .cg-style .cg-header-menu .et_pb_menu .et_pb_menu__wrap {
+        justify-content: flex-end;
+    }
+}
+
+/* Fixes search icon alignment on mobile. */
+@media only screen and (max-width: 980px) {
+    .cg-style .et_pb_menu__wrap .et_pb_menu__icon.et_pb_menu__search-button {
+        margin-top: 3px;
+    }
+}
+
+
+
+
+
+/**========================================================================
+ *                           HEADER MENUS
+ *========================================================================**/
+ /**--------------------------------------------
+ *               FORCE ON TOP
+ *---------------------------------------------**/
+/* Forces dropdown menu on top of other content */
+header.et-l.et-l--header {
+    z-index: 99999;
+    position: relative;
+}
+
+
+
+
+/**========================================================================
+ *                           FOOTER MENUS
+ *========================================================================**/
+/**--------------------------------------------
+ *               BORDER
+ *---------------------------------------------**/
+.cg-style .et_pb_row {
+    border-color: var(--head-dark)
+}
+
+.cg-style-dark .et_pb_row {
+    border-color: var(--neutral-light)
+}
+
+
+/**--------------------------------------------
+ *               MOBILE
+ *---------------------------------------------**/
+/* Forces footer menu open on mobile */
+@media (max-width: 980px) {
+    .cg-style .cg-footer-menu .et_pb_menu__menu {
+        display: flex !important;
+    }
+
+    .cg-style .cg-footer-menu .et_pb_menu__wrap {
+        justify-content: center;
+    }
+
+    .cg-style .cg-footer-menu .et_mobile_nav_menu {
+        display: none !important;
+    }
+}
+
+/**--------------------------------------------
+ *               FORCE ON TOP
+ *---------------------------------------------**/
+/* Forces dropdown menu on top of other content */
+footer.et-l.et-l--footer {
+    z-index: 99998; /* 8 so the header dropdown still shows on top */
+    position: relative;
+}
+
+
+/**========================================================================
+ *                           COLLAPSIBLE MOBILE MENUS
+ *========================================================================**/
+/* Source: https://www.peeayecreative.com/how-to-collapse-divi-mobile-menu-submenus/ */
+
+/*change hamburger icon to x when mobile menu is open*/
+#et_mobile_nav_menu .mobile_nav.opened .mobile_menu_bar::before,
+.et_pb_module.et_pb_menu .et_mobile_nav_menu .mobile_nav.opened .mobile_menu_bar::before {
+    content: '\4d';
+}
+
+
+/*adjust the new toggle element which is added via jQuery*/
+ul.et_mobile_menu li.menu-item-has-children .mobile-toggle,
+ul.et_mobile_menu li.page_item_has_children .mobile-toggle,
+.et-db #et-boc .et-l ul.et_mobile_menu li.menu-item-has-children .mobile-toggle,
+.et-db #et-boc .et-l ul.et_mobile_menu li.page_item_has_children .mobile-toggle {
+    width: 44px;
+    height: 100%;
+    padding: 0px !important;
+    max-height: 44px;
+    border: none;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 999;
+    background-color: transparent;
+}
+
+
+/*some code to keep everyting positioned properly*/
+ul.et_mobile_menu>li.menu-item-has-children,
+ul.et_mobile_menu>li.page_item_has_children,
+ul.et_mobile_menu>li.menu-item-has-children .sub-menu li.menu-item-has-children,
+.et-db #et-boc .et-l ul.et_mobile_menu>li.menu-item-has-children,
+.et-db #et-boc .et-l ul.et_mobile_menu>li.page_item_has_children,
+.et-db #et-boc .et-l ul.et_mobile_menu>li.menu-item-has-children .sub-menu li.menu-item-has-children {
+    position: relative;
+}
+
+
+/*remove default background color from menu items that have children*/
+.et_mobile_menu .menu-item-has-children>a,
+.et-db #et-boc .et-l .et_mobile_menu .menu-item-has-children>a {
+    background-color: transparent;
+}
+
+
+/*hide the submenu by default*/
+
+ul.et_mobile_menu .menu-item-has-children .sub-menu,
+#main-header ul.et_mobile_menu .menu-item-has-children .sub-menu,
+.et-db #et-boc .et-l ul.et_mobile_menu .menu-item-has-children .sub-menu,
+.et-db #main-header ul.et_mobile_menu .menu-item-has-children .sub-menu {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+
+/*show the submenu when toggled open*/
+ul.et_mobile_menu .menu-item-has-children .sub-menu.visible,
+#main-header ul.et_mobile_menu .menu-item-has-children .sub-menu.visible,
+.et-db #et-boc .et-l ul.et_mobile_menu .menu-item-has-children .sub-menu.visible,
+.et-db #main-header ul.et_mobile_menu .menu-item-has-children .sub-menu.visible {
+    display: block !important;
+    visibility: visible !important;
+}
+
+
+/*adjust the toggle icon position and transparency*/
+ul.et_mobile_menu li.menu-item-has-children .mobile-toggle,
+.et-db #et-boc .et-l ul.et_mobile_menu li.menu-item-has-children .mobile-toggle {
+    text-align: center;
+    opacity: 1;
+}
+
+
+/*submenu toggle icon when closed*/
+ul.et_mobile_menu li.menu-item-has-children .mobile-toggle::after,
+.et-db #et-boc .et-l ul.et_mobile_menu li.menu-item-has-children .mobile-toggle::after {
+    top: 10px;
+    position: relative;
+    font-family: "ETModules";
+    content: '\33';
+    color: var(--accent);
+    background: var(--neutral-light);
+    border-radius: 50%;
+    padding: 3px;
+}
+
+
+/*submenu toggle icon when open*/
+ul.et_mobile_menu li.menu-item-has-children.dt-open>.mobile-toggle::after,
+.et-db #et-boc .et-l ul.et_mobile_menu li.menu-item-has-children.dt-open>.mobile-toggle::after {
+    content: '\32';
+}
+
+
+/*add point on top of the menu submenu dropdown*/
+.et_pb_menu_0.et_pb_menu .et_mobile_menu:after {
+    position: absolute;
+    right: 5%;
+    margin-left: -20px;
+    top: -14px;
+    width: 0;
+    height: 0;
+    content: '';
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid var(--neutral-light);
+}
+
+
+/*adjust the position of the hamburger menu
+8/16/2023 [AMW] — Commented out because causing alignment issue with menu icon. Fixed when commented,
+but not sure if this will cause other issues. Delete after a while if no issue. 
+
+.mobile_menu_bar {
+    position: relative;
+    display: block;
+    bottom: 10px;
+    line-height: 0;
+}*/
+
+
+/*force the background color and add a rounded border*/
+
+.et_pb_menu_0.et_pb_menu .et_mobile_menu,
+.et_pb_menu_0.et_pb_menu .et_mobile_menu ul {
+    background-color: #ffffff !important;
+    border-radius: 10px;
+}

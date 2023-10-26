@@ -1,0 +1,42 @@
+/**============================================
+ *               SHOP BLOCK
+ *=============================================**/
+.cg-style .et_shop_image:hover .et_overlay {
+    color: var(--accent);
+}
+
+.cg-style .woocommerce span.onsale, .woocommerce-page span.onsale {
+    background: var(--accent) !important;
+    /* Divi uses !important. Mandatory here. */
+}
+
+
+/**============================================
+ *               PRODUCT PAGE
+ *=============================================**/
+ .cg-style .et_pb_wc_add_to_cart form.cart .variations td.value span:after {
+    margin-top: -8px !important;
+  }
+
+.cg-style .woocommerce-message {
+    background-color: var(--accent);
+}
+
+.cg-style .et_pb_wc_add_to_cart .quantity input.qty {
+    max-width: 5em;
+}
+
+.cg-style .et_pb_wc_add_to_cart .woocommerce-variation-price .price {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.woocommerce div.product .cg-style-dark form.cart .variations td select {
+    /* Product variations dropdown background color. Dark only. */
+    background-color: var(--neutral-light);
+}
+
+.woocommerce div.product .cg-style-dark #commentform textarea {
+    /* Product variations dropdown background color. Dark only. */
+    background-color: var(--neutral-light) !important;
+}

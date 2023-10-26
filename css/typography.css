@@ -37,6 +37,10 @@
     /* Blog grid title */
 }
 
+.cg-style .woocommerce-Price-amount,
+.cg-style .et_pb_wc_add_to_cart .woocommerce-variation-price .price {
+    color: var(--accent);
+}
 
 
 
@@ -80,6 +84,15 @@
     /* Blog grid title. This uses dark because the cards are still white.  */
 }
 
+.woocommerce div.product .cg-style-dark form.cart .variations {
+    /* Product variations. Dark only. */
+    color: var(--neutral-light);
+}
+
+.woocommerce div.product .cg-style-dark form.cart .quantity input.qty {
+    /* Product quantity. Dark only. */
+    color: var(--neutral-light);
+}
 
 
 
@@ -169,8 +182,15 @@ p,
     font-size: 2.0rem;
 }
 
+/**--------------------------------------------
+ *               WOOCOMMERCE
+ *---------------------------------------------**/
+.cg-style .related h2:first-child {
+    font-size: 2rem !important;
+}
+
+
 
 /**--------------------------------------------
-  *               CIRCLED NUMBERS
-  *---------------------------------------------**/
-
+ *               SECTION HEADER
+ *---------------------------------------------**/

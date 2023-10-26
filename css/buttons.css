@@ -95,13 +95,39 @@
 }
 
 
+/**============================================
+ *               WOOCOMMERCE
+ *=============================================**/
+.woocommerce div.product .cg-style .single_add_to_cart_button.button {
+  border-color: var(--button);
+  background-color: var(--button);
+  color: var(--button-text);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.woocommerce div.product .cg-style .single_add_to_cart_button.button:hover {
+  border-color: var(--button-hover);
+  background-color: var(--button-hover);
+  color: var(--button-text);
+}
+
+/* Add to cart message button */
+.cg-style .woocommerce-message a.button.wc-forward {
+  color: var(--button);
+}
+
+.cg-style .woocommerce-message a.button.wc-forward:hover {
+  color: var(--button-hover);
+}
 
 
 /**============================================
  *               OTHER
  *=============================================**/
 .cg-style .et_pb_newsletter_button,
-.cg-style .et_pb_contact_submit {
+.cg-style .et_pb_contact_submit,
+.woocommerce .cg-style .single_add_to_cart_button.button {
   border-color: var(--button);
   background-color: var(--button);
   color: var(--button-text);
@@ -124,3 +150,5 @@
   border-color: var(--button-hover);
   background-color: var(--button-hover);
 }
+
+

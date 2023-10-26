@@ -23,6 +23,7 @@
         wp_enqueue_style('child-theme-portfolios', get_stylesheet_directory_uri() . '/css/portfolios.css', array('child-theme-variables'), $version);
         wp_enqueue_style('child-theme-faqs', get_stylesheet_directory_uri() . '/css/faqs.css', array('child-theme-variables'), $version);
         wp_enqueue_style('child-theme-blog', get_stylesheet_directory_uri() . '/css/blog.css', array('child-theme-variables'), $version);
+        wp_enqueue_style('child-theme-woo', get_stylesheet_directory_uri() . '/css/woo.css', array('child-theme-variables'), $version);
 
         // Enqueue jQuery (included with WordPress)
         wp_enqueue_script('jquery');
